@@ -1,6 +1,7 @@
 # Instructions
 
-Hey There! Welcome to homework 2 of the SWE610 Ruby on Rails Class. This week we'll have covered routes (more in depth), simple ruby syntax, and basic CRUD statements.
+Hey There! Welcome to homework 2 of the SWE610 Ruby on Rails Class. This week we'll have covered routes (more in depth), 
+simple ruby syntax, and basic CRUD statements.
 
 Between each change you should refresh your browser to observe changes.  If that doesn't work try restarting the server.
 
@@ -37,7 +38,8 @@ Good thing we have you here to fix things up! Route a path in the routes.rb file
 
 Now that we've gone through that hassle, we now face our second problem. If you try to submit the form, you get a views error message (Missing template pages/stringify)!
 
-Add a view in /views/pages such that the <em>@text</em> variable renders "You are nothing!" if the form is blank, but prints "<em>your_name</em> is so <em> your_adjective</em>" if you submit the form. You should review how to render instance variables in views if you forget!
+Add a view in /views/pages such that the <em>@text</em> variable renders "You are nothing!" if the form is blank, but prints "<em>your_name</em> is so <em> your_adjective</em>" 
+buif you submit the form. You should review how to render instance variables in views if you forget!
 
 (Hint: every request, rails has a hash (dictionary) called <b>params</b>, containing fields that might be useful to you. The method <em>blank?</em> may also be helpful.)
 
